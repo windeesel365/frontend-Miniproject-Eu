@@ -15,3 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
     });
 });
+
+
+function playVideo() {
+    //to play video
+}
