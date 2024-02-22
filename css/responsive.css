@@ -1,0 +1,222 @@
+/* Add responsive design*/
+@media (max-width: 888px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu {
+        display: none;
+        margin: 0;
+        padding: 0;     
+    }
+    
+    .menu.active {
+        display: block;
+    }
+
+    .menu li {
+        display: inline-block;
+        margin-left: 0; 
+    }
+
+    .menu-icon {
+        display:block;
+        float: right; 
+        position: absolute;
+        width:40px;
+        top: 90px;
+        right: 45px; 
+    }    
+
+    .contact-now {
+
+        display: none;
+        top: 10px;
+        right: 10px;
+    }
+
+    .separate-main {
+        flex-direction: column-reverse; 
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .biggesttext, #hero p, .discover-more-button{
+        margin-left: 5%;
+    }    
+
+    .logo-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;      
+    }
+
+    .logo-container a img {
+        height: 100px; 
+        width: auto; 
+    }
+
+    .decorative-circles {
+        display:flex;
+        position: relative; 
+        top: 0px;
+        left: -100px;  
+        width: 20%;
+        z-index: 0;      
+    }
+
+    .career-container {
+        padding-top: 400px; 
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+        padding-bottom: 10px;
+    }
+
+    .career-header {
+        width: 80%;
+    }
+
+
+    .decorative-circles {
+        top:-400px;
+        display: block;
+        position: relative;
+        width: 50%;
+        z-index: 0;
+       
+    }       
+
+    .departments {
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .department {
+        width: 50%;
+    }
+
+    .teacher {
+        flex-direction: column; 
+        align-items: center; 
+        padding-top: 50px;
+    }    
+
+    .centered-ver-align {
+        align-items: center;      
+        margin-left: 0px;
+    }    
+
+    .teacher-button {
+        margin-top: 50px;
+        margin-left: 0px; 
+    }
+
+    .team {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .reviews-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center; 
+    }
+
+
+    .summary {
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+
+    #testimonial2 {
+        width: 80%;
+        top: 65%;
+    }
+
+    .profile {
+        justify-content: center;
+    }
+
+    .register-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .register-text {
+        padding-top: 55px;
+        font-size: 15px;
+        display: flex; 
+        flex-direction: column;
+        justify-content:center; 
+        align-items:flex-start;    
+        margin-top: 5%;  
+        margin-left: 10%;
+    }
+    
+    .register-button {
+        margin-left: 20%;
+        margin-top: -5px;
+        margin-bottom: 30px;        
+    }
+
+    .arrowpict {
+        margin-left: 40%;
+        margin-top: -5px;
+        width: auto; 
+        height: 0.3%; 
+        max-width: 50px;       
+        content: url('../images/resp_arrow.jpg'); 
+    }
+
+
+    .footer {
+        flex-direction: column; 
+        justify-content: center;
+        align-items:flex-start; 
+        padding: 20px 0px; 
+        width: 100%;
+        gap: 5px;
+    }
+
+    .footer-column {
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px; 
+    
+        width: 70%; 
+        line-height: 2.5; 
+        
+    }   
+
+    .footer-column p {
+        margin: 0px 0px 0px 0px;
+        width: 70vw;
+    }
+
+    .logo-column {
+        width: 70%;
+    }
+    
+    .button-group1 {
+        display: none;
+    }
+    .button-group2 {
+        display: block;
+    }      
+  
+}
+

@@ -1,0 +1,55 @@
+header {
+    background: #fff;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    left: 20%;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fffcf5;
+}
+
+nav #logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav button {
+    width: 150px;
+    margin-left: 40%;
+    background: linear-gradient(to bottom, #000, #333333d0); 
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+nav button:hover {
+    background: linear-gradient(to bottom, #fff, #ccc); 
+    color: #000;
+}
+
+
+.contact-now {
+    position: absolute;
+    right:10%;
+    width:120px;
+}
